@@ -1,0 +1,29 @@
+{
+  "name": "@gema/due-date-calculator",
+  "version": "0.0.1",
+  "description": "Utility to calculate due dates of bugfixes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemabarni/due-date-calculator.git"
+  },
+  "author": "Barnabas Gema <gema.barnabas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gemabarni/due-date-calculator/issues"
+  },
+  "homepage": "https://github.com/gemabarni/due-date-calculator#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.11.0",
+    "mocha": "5.1.1",
+    "pre-commit": "1.2.2"
+  },
+  "pre-commit": "lint"
+}
