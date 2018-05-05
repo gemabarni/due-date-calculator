@@ -1,4 +1,7 @@
 # due-date-calculator
+
+[![Build Status](https://travis-ci.org/gemabarni/due-date-calculator.svg?branch=master)](https://travis-ci.org/gemabarni/due-date-calculator)
+
 Utility to calculate due dates of bugfixes
 
 ## Installation

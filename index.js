@@ -7,7 +7,6 @@ const {
 
 const ONE_HOUR_IN_MS = 1000 * 60 * 60;
 
-// eslint-disable-next-line consistent-return
 function calculateDueDate(submitDate, turnaround) {
   if (!(submitDate instanceof Date)) {
     throw new Error('The submission date is not a Date object');
